@@ -1,2 +1,3 @@
 # Using-HTML-with-Version-Control
-Lab
+Lab: Using HTML with Version Control
+Code developed for SAIT class. 
