@@ -13,6 +13,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    color: hotpink;
+  }
+
 /* headers styling */
 
 h1 {
@@ -38,6 +42,8 @@ nav {
     justify-content: center; 
     align-items: center;
     height: 30px; 
+    margin: 0 auto;
+    width: 100%;
 }
 
 nav ul {
@@ -48,7 +54,7 @@ nav ul {
 }
 
 nav li {
-    margin-right: 50px;
+    margin: 25px;
 }
 
 nav a {
@@ -99,20 +105,21 @@ figcaption {
 #about-main {
     text-align: center;
     margin: auto;
-    width: 80%;
+    width: 60%;
     padding: 5px 5px;
 }
 
 .education-list-items, .tech-skills-list-items {
     text-align: left;
     margin: auto;
-    width: 60%;
+    width: 50%;
     padding: 5px 5px;
 }
 
-a {
-    color: hotpink;
-  }
+.education-list-items li, .tech-skills-list-items li {
+    padding: 2px;
+}
+
 
 /* footer styling */
 
