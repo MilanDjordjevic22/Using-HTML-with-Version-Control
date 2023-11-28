@@ -1,14 +1,16 @@
+@media screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+}
+
 /* MAIN STYLING PAGE FOR ALL PAGES */
 
 body {
     background-color: white;
     margin: auto;
     width: 100%;
-}
-
-p {
-    text-align: center;
-    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* headers styling */
@@ -16,14 +18,12 @@ p {
 h1 {
     text-align: center;
     font-size: 90px;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
-h2 {
+h2, h3 {
     text-align: center;
-}
-
-h3 {
-    text-align: center;
+    font-family: 'Nova Square', sans-serif;
 }
 
 header h1 {
@@ -73,6 +73,7 @@ img {
 
 figcaption {
     text-align: center;
+    padding: 5px 0px;
 }
 
 /* table styling */
@@ -95,12 +96,23 @@ figcaption {
 
 /* main text styling in about section */
 
-#contact-main {
+#about-main {
     text-align: center;
     margin: auto;
-    width: 60%;
-    padding: 5px 10px;
+    width: 80%;
+    padding: 5px 5px;
 }
+
+.education-list-items, .tech-skills-list-items {
+    text-align: left;
+    margin: auto;
+    width: 60%;
+    padding: 5px 5px;
+}
+
+a {
+    color: hotpink;
+  }
 
 /* footer styling */
 
