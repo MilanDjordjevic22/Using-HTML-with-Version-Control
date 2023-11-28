@@ -11,10 +11,11 @@ p {
     padding: 10px 0;
 }
 
+/* headers styling */
+
 h1 {
     text-align: center;
     font-size: 90px;
-
 }
 
 h2 {
@@ -23,8 +24,13 @@ h2 {
 
 h3 {
     text-align: center;
-
 }
+
+header h1 {
+    margin: auto;
+}
+
+/* navigation styling */
 
 nav {
     background-color: black;
@@ -32,7 +38,6 @@ nav {
     justify-content: center; 
     align-items: center;
     height: 30px; 
-   
 }
 
 nav ul {
@@ -56,6 +61,7 @@ nav a:hover {
     background-color: red;
 }
 
+/* images styling */
 
 img {
     display: block;
@@ -69,10 +75,7 @@ figcaption {
     text-align: center;
 }
 
-
-header h1 {
-    margin: auto;
-}
+/* table styling */
 
 .contact-table {
     margin: auto;
@@ -83,13 +86,23 @@ header h1 {
     justify-content: center;
 }
 
-
 .contact-method-col, .contact-details-col {
     margin: auto;
     width: 30%; 
     padding: 5px 10px;
     text-align: center;
 }
+
+/* main text styling in about section */
+
+#contact-main {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 5px 10px;
+}
+
+/* footer styling */
 
 footer {
     background-color: black;
