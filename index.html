@@ -6,9 +6,11 @@
     <link rel="stylesheet" href="styles/styles.css">
     <title>About Me</title>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nova+Square&display=swap" rel="stylesheet"> 
+    <script defer src="script/file.js"></script>
+    <!-- picked defer because the content linked to this html will make use of the entire content -->
 </head>
 
-<body>
+<body id="index-body">
 
     <header>
         <h1>Milan Djordjevic</h1>
@@ -31,6 +33,7 @@
             Dignissimos tempore quae quibusdam voluptatem molestias nisi corporis 
             earum impedit molestiae veritatis! Accusamus cumque praesentium ad 
             perferendis optio odit magni dicta eos.</p>
+            <button id="btn-alert">Click me for a surprise!</button>
         </section>
 
         <!-- Education Section -->
@@ -59,12 +62,19 @@
             <h3>Links</h3>
             <p>Check out my <a href="https://www.linkedin.com/in/milan-djordjevic-2a7628273/" target="_blank">LinkedIn</a> and my <a href="https://github.com/milandjordjevic22" target="_blank">GitHub profile</a>.</p>
         </section>
+
+        <section id="increment">
+            <h3>Rate Me</h3>
+            <p>Rate my resume out of 10 </p>
+            <button id="btn-decrease">-</button><button id="btn-rate-me">Hmmm</button><button id="btn-increase">+</button>
+            <ol id="numbers"></ol>
+        </section>
+
     </main>
 
     <footer>
-        <p>&copy; 2023 Milan Djordjevic</p>
+        <p>&copy; <span id="current-year"></span> Milan Djordjevic</p>
     </footer>
-
 </body>
 
 </html>
