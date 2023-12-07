@@ -120,9 +120,42 @@ figcaption {
     padding: 2px;
 }
 
+/* styling number list to be closer together and four columns so it is easier to view */
+#numbers {
+    text-align: center;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0 auto;
+    column-count: 4;
+}
+
+#numbers li {
+    margin-bottom: 5px;
+}
+
+/* button styling */
+button {
+    border: 2px solid hotpink;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hotpink;
+    color: white;
+}
+
+.even {
+    color: hotpink;
+}
+
+.odd {
+    color: purple;
+}
 
 /* footer styling */
-
 footer {
     background-color: black;
     color: white;
